@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.background-image-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png");
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+
+}
+
+.background-text-container {
+    height: 15vh;
+    width: 60vw;
+    padding: 50px;
+    margin-left: 120px;
+    padding-top: 30px;
+
+}
+
+.music-heading {
+    font-family: "Bree Serif";
+    color: white;
+
+}
+
+.music-heading2 {
+    font-family: "Bree Serif";
+    color: white;
+    margin-left: 120px;
+    padding-top: 80px;
+
+}
+
+
+
+.music-paragraph {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.background-color {
+    background-color: #03174c;
+    height: 100vh;
+    width: 100vw;
+}
+
+.image-alignment {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 260px;
+    width: 450px;
+    margin-top: 110px;
+}
+
+.music-paragraph2 {
+    color: white;
+    font-family: "Bree Serif";
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.button-style {
+    border-radius: 10px;
+    background-color: #8e97fd;
+    color: white;
+    font-family: "Bree Serif";
+    margin-left: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+
+}
+
+
+
+.background-color3 {
+    background-color: #03174c;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-image-container3 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png");
+    background-size: cover;
+    height: 40vh;
+    width: 100vw;
+    border-radius: 13px;
+}
+
+.music-heading3 {
+    font-family: "Bree Serif";
+    color: white;
+    padding-top: 10px;
+    margin-left: 13px;
+    margin-bottom: 5px;
+
+}
+
+.paragraph1 {
+    color: #98a1bd;
+    margin-left: 13px;
+}
+
+.paragraph2 {
+    color: #98a1bd;
+    margin-left: 13px;
+}
+
+.paragraph3 {
+    color: white;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.paragraph4 {
+    color: white;
+    margin-left: 120px;
+    font-weight: 500;
+}
+
+.paragraph5 {
+    color: #98a1bd;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.paragraph6 {
+    color: #98a1bd;
+    margin-left: 70px;
+    font-weight: 600;
+}
+
+.related {
+    font-family: "Bree Serif";
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 13px;
+}
+
+.image-resizer1 {
+    height: 100px;
+    width: 150px;
+    margin-left: 40px;
+}
+
+.image-resizer2 {
+    height: 100px;
+    width: 150px;
+    margin-left: 80px;
+}
+
+.button-alignment2 {
+    background-color: #8e97fd;
+    color: white;
+    font-family: "Roboto";
+    border-radius: 15px;
+    width: 90px;
+    margin-left: 30px;
+}
