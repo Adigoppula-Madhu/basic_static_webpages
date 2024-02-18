@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Todo list </title>
+</head>
+
+<body>
+    <div class="forall">
+        <h1 class="heading">
+            Todolist
+        </h1>
+        <p class="firstpara">
+            Each day i will acomplish
+            one thing on my todo list
+        </p>
+        <h3>
+            Read a book
+        </h3>
+        <p>
+            I dont think that the human race will survive
+            the next thousand years,unless we spread into space.
+            There are too many accidents that can be fall life on
+            a single planet.But i am a optimist....
+        </p>
+        <div class="paragraph">
+            <button class="button">
+                Start
+            </button>
+
+            <p>
+                Don't skip introduction
+            </p>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
