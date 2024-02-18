@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.background-image {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/orange-color-bg.png);
+    background-size: cover;
+}
+
+.heading {
+    font-weight: bold;
+    color: white;
+    font-family: "Roboto";
+    font-size: 25px;
+    padding: 10px;
+    width: 40vw;
+}
+
+.button-styling {
+    border-radius: 10px;
+    background-color: white;
+    color: #ff8348;
+    font-family: "Roboto";
+    padding: 10px;
+    font-weight: bold;
+    width: 90px;
+    border: 0px;
+    text-align: center;
+    margin: 08px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.paragraph-styling {
+    font-size: 15px;
+    color: white;
+    padding: 13px;
+}
+
+.similar-section {
+    font-size: 20px;
+    font-family: "Roboto";
+    color: white;
+}
+
+.similar-movies-section {
+    margin: 10px;
+    color: white;
+    background-size: cover;
+    justify-content: center;
+}
+
+.page-padding {
+    padding: 10px;
+}
+
+.mydiv {
+    display: block;
+    margin: auto
+}
+
+.corosal-padding {
+    margin: 10px;
+}
