@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="myprojects.css">
+</head>
+
+<body>
+    <div id="sectionHome_page">
+        <div class="d-flex flex-column justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="my_projects_image ">
+            <h1 class="my_projects_heading"> My Projects </h1>
+            <p class="main_paragraph text-center"> These are a few of my Static Website projects that I have developed using HTML, CSS and Bootstrap </p>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="advanced_technologyes_image1" onclick="display('sectionAdvanced_technologies')">
+            <img src="https://img.freepik.com/free-vector/work-chat-concept-illustration_114360-1071.jpg?size=626&ext=jpg&ga=GA1.2.496179416.1681449168&semt=ais" class="diwali_image1" onclick="display('sectionchat_page')"/>
+        </div>
+        <div class="d-flex flex-row justify-content-center mb-5">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="meals_image1" onclick="display('sectionmeals_page')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="news_paper_image1" onclick="display('sectionNews_paper')">
+        </div>
+    </div>
+
+    <div id="sectionmeals_page">
+
+        <div class="bgcontainer card d-flex flex-column justify-content-end ">
+            <div class=" backgroundcolor ">
+
+                <h1 class="main-heading d-flex flex-row justify-content-left "> Happy Meals </h1>
+                <p class="paragraph"> Discovery the best food over the 1,000 </p>
+                <p class="paragraph"> restaurants</p>
+                <div class="d-flex flex-row justify-content-left">
+                    <button class="button"> Book Now </button>
+                    <button class="btn btn-primary" onclick="display('sectionHome_page')"> Back</button>
+                </div>>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sectionAdvanced_technologies">
+
+        <div class="background-image d-flex flex-column justify-content-end">
+            <div class="background-card">
+                <h1 class="title-text">Advanced Technologies</h1>
+                <p class="paragraph-text"> Machinery and equipment developed from the application of scientific knowledge.</p>
+                <button class="f_button"> Learn More</button>
+                <button class="s_button"> Save Draft</button>
+                <button class="btn btn-primary" onclick="display('sectionHome_page')"> Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionNews_paper">
+
+        <div class="background-image d-flex flex-column justify-content-end">
+            <div class="background-card">
+                <h1 class="main-title"> NEWS OF THE DAY</h1>
+                <p class="main-heading"> iB Cricket announces world's first
+                    Virtual Reality Cricket League</p>
+                <p class=paragraph>
+                    iB Cricket and Viu together have announced the World's
+                    first Virtual reality cricket league featuring 12 international
+                    cricketers ,who will be competing aginst each other for the iB Cricket
+                    Super Over League title in Mumbai.Iconic cricketers like Virender Sehwag,Suresh Raina,
+                    Brendon McCullum will be competing in the league.
+                </p>
+                <button class="button-style"> Read more</button>
+                <button class="btn btn-primary" onclick="display('sectionHome_page')"> Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionchat_page">
+
+        <div class="bg-container10 ">
+            <h1 class="main-heading flex-column justify-content-center">
+                Rahul
+            </h1>
+            <p1 class="d-flex flex-column justify-content-center message-text message-sent">
+                Hello Rahul,how are you?
+            </p1>
+            <p2 class="d-flex flex-column justify-content-center message-text message-recived">
+                Hi Varakumar,I am good.How about you?
+            </p2>
+            <p3 class="d-flex flex-column justify-content-center message-text message-sent">
+                I'm fine I published my website recently
+            </p3>
+            <p4 class="d-flex flex-column justify-content-center message-text message-recived">
+                Oh great Varakumar!Can you send me the URL?
+            </p4>
+            <p5 class="d-flex flex-column justify-content-center message-text message-sent">
+                https://varakumar.ccbp.tech
+            </p5>
+            <p6 class="d-flex flex-column justify-content-center message-text message-recived">
+                Awesome Varakumar,where did you learn?
+            </p6>
+            <p7 class="d-flex flex-column justify-content-center message-text message-sent ">
+                NxtWave CCBP 4.0 Program
+            </p7>
+            <button class="btn btn-primary" onclick="display('sectionHome_page')"> Back</button>
+        </div>
+
+
+    </div>
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
