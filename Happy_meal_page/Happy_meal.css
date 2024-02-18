@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bgcontainer {
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.backgroundcolor {
+    background-color: #f6c56e;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 15px;
+
+}
+
+.main-heading {
+    font-family: Bree Serif;
+    text-align: left;
+
+
+}
+
+.paragraph {
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.button {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 7px 21px;
+    border-style: none;
+    border: 0px;
+    font-family: none;
+    font-size: 11px;
+    text-align: left;
+    margin-right: 10px;
+}
